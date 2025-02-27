@@ -8,8 +8,8 @@ st.title("  AI-Travel Planner")
 st.write("Enter details to get estimated travel costs for various travel modes(including cab, train, bus, and flights).")
 
 
-source = st.text_input("📍 Source:")
-destination = st.text_input("📍 Destination:")
+source = st.text_input("📌 Source:")
+destination = st.text_input("📌 Destination:")
 
 
 if st.button("Get Travel plan"):
